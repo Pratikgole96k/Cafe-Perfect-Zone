@@ -50,6 +50,7 @@ export const FoodCard: React.FC<FoodCardProps> = ({ item, onOpenDetails }) => {
         <OptimizedImage
           src={item.image}
           alt={item.name}
+          containerClassName="w-full h-full"
           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
         />
 

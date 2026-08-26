@@ -73,6 +73,7 @@ export const FoodDetailModal: React.FC<FoodDetailModalProps> = ({ item, onClose 
             <OptimizedImage
               src={item.image}
               alt={item.name}
+              containerClassName="w-full h-full"
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[#14141a] via-transparent to-black/30" />
