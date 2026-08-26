@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import imgBirthdayOffer2 from '../assets/images/birthday-offer-2.jpg';
+import imgChessRoll from '../assets/images/chess_roll.jpg';
 import { 
   Sparkles, 
   ArrowRight, 
@@ -212,7 +214,7 @@ export const HomePage: React.FC = () => {
               <div className="relative mx-auto max-w-md lg:max-w-none">
                 <div className="relative rounded-3xl overflow-hidden border border-yellow-500/30 shadow-2xl shadow-yellow-500/15 group h-80 sm:h-[440px] bg-[#121218] flex items-start justify-center">
                   <img
-                    src="/images/birthday-offer-2.jpg"
+                    src={imgBirthdayOffer2}
                     alt="Birthday Offer at Cafe Perfect Zone"
                     className="w-full h-full object-contain object-top pt-2 sm:pt-4 transition-transform duration-700 group-hover:scale-105"
                   />
@@ -382,7 +384,7 @@ export const HomePage: React.FC = () => {
             <div className="lg:col-span-5 grid grid-cols-2 gap-4">
               <div className="relative rounded-2xl overflow-hidden h-48 sm:h-56 border border-zinc-700/80 group">
                 <OptimizedImage
-                  src="https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?w=600&auto=format&fit=crop&q=80"
+                  src={imgChessRoll}
                   alt="Delicious Chess Roll at Cafe Perfect Zone"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />

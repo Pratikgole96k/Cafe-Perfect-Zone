@@ -1,5 +1,16 @@
 import { MenuItem } from '../types';
 
+import imgBunMasca from '../assets/images/bun_masca.jpg';
+import imgMaggiClassic from '../assets/images/maggi_classic.jpg';
+import imgMasalaMaggi from '../assets/images/masala_maggi.jpg';
+import imgLoadedMasalaFries from '../assets/images/loaded_masala_fries.jpg';
+import imgTandoorCheeseSandwich from '../assets/images/tandoor_cheese_sandwich.jpg';
+import imgChocolateSandwich from '../assets/images/chocolate_sandwich.jpg';
+import imgPaneerSandwich from '../assets/images/paneer_sandwich.jpg';
+import imgPaneerPizza from '../assets/images/paneer_pizza.jpg';
+import imgPineappleShake from '../assets/images/pineapple_shake.jpg';
+import imgChessRoll from '../assets/images/chess_roll.jpg';
+
 export const SEED_MENU_ITEMS: MenuItem[] = [
   // ==================== BEVERAGES ====================
   {
@@ -58,7 +69,7 @@ export const SEED_MENU_ITEMS: MenuItem[] = [
     category: 'BEVERAGES',
     price: 30,
     description: 'Soft warm fluffy bakery bun generously slathered with creamy fresh butter.',
-    image: 'https://images.unsplash.com/photo-1586190848861-99aa4a171e90?w=600&auto=format&fit=crop&q=80',
+    image: imgBunMasca,
     isAvailable: true,
     isPopular: true,
     isVeg: true,
@@ -123,7 +134,7 @@ export const SEED_MENU_ITEMS: MenuItem[] = [
     category: 'MAGGI',
     price: 30,
     description: 'The beloved classic 2-minute noodle bowl cooked piping hot with traditional tastemaker.',
-    image: '/images/maggi_classic.jpg',
+    image: imgMaggiClassic,
     isAvailable: true,
     isPopular: true,
     isVeg: true,
@@ -136,7 +147,7 @@ export const SEED_MENU_ITEMS: MenuItem[] = [
     category: 'MAGGI',
     price: 45,
     description: 'Spiced up Maggi noodles tossed with fresh chopped onions, tomatoes, green chillies, and special spices.',
-    image: '/images/masala_maggi.jpg',
+    image: imgMasalaMaggi,
     isAvailable: true,
     isPopular: true,
     isVeg: true,
@@ -177,7 +188,7 @@ export const SEED_MENU_ITEMS: MenuItem[] = [
     category: 'FRIES',
     price: 80,
     description: 'Crispy golden fries loaded with spicy masala, drizzled sauces, chopped onions, and garnishing.',
-    image: 'https://images.unsplash.com/photo-1586190848861-99aa4a171e90?w=600&auto=format&fit=crop&q=80',
+    image: imgLoadedMasalaFries,
     isAvailable: true,
     isPopular: true,
     isVeg: true,
@@ -217,7 +228,7 @@ export const SEED_MENU_ITEMS: MenuItem[] = [
     category: 'SANDWICHES',
     price: 75,
     description: 'Smoky tandoori marinated fillings layered with creamy melted cheese inside grilled bread.',
-    image: 'https://images.unsplash.com/photo-1550547660-d9450f859349?w=600&auto=format&fit=crop&q=80',
+    image: imgTandoorCheeseSandwich,
     isAvailable: true,
     isPopular: true,
     isVeg: true,
@@ -242,7 +253,7 @@ export const SEED_MENU_ITEMS: MenuItem[] = [
     category: 'SANDWICHES',
     price: 75,
     description: 'Crispy grilled toast filled with rich molten chocolate spread and chocolate shavings.',
-    image: 'https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?w=600&auto=format&fit=crop&q=80',
+    image: imgChocolateSandwich,
     isAvailable: true,
     isVeg: true,
     preparationTime: '8 mins',
@@ -254,7 +265,7 @@ export const SEED_MENU_ITEMS: MenuItem[] = [
     category: 'SANDWICHES',
     price: 80,
     description: 'Soft marinated cottage cheese cubes tossed in spices and herbs grilled between buttery toasts.',
-    image: 'https://images.unsplash.com/photo-1567206563064-6f60f40a2b57?w=600&auto=format&fit=crop&q=80',
+    image: imgPaneerSandwich,
     isAvailable: true,
     isPopular: true,
     isVeg: true,
@@ -410,7 +421,7 @@ export const SEED_MENU_ITEMS: MenuItem[] = [
     category: 'PIZZAS',
     price: 200,
     description: 'Premium soft paneer cubes marinated in chef spices, fresh bell peppers, onions, and rich mozzarella.',
-    image: 'https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?w=600&auto=format&fit=crop&q=80',
+    image: imgPaneerPizza,
     isAvailable: true,
     isPopular: true,
     isVeg: true,
@@ -489,7 +500,7 @@ export const SEED_MENU_ITEMS: MenuItem[] = [
     category: 'SHAKES / SNACKS',
     price: 80,
     description: 'Sweet and tangy tropical pineapple shake blended with chilled milk and ice.',
-    image: 'https://images.unsplash.com/photo-1553530666-ba11a7da3888?w=600&auto=format&fit=crop&q=80',
+    image: imgPineappleShake,
     isAvailable: true,
     isVeg: true,
     preparationTime: '5 mins',
@@ -541,7 +552,7 @@ export const SEED_MENU_ITEMS: MenuItem[] = [
     category: 'NEW ADDITIONS',
     price: 70,
     description: 'Crispy golden fried tortilla roll stuffed with loaded melting cheese, spiced veggies, and special herb dressing.',
-    image: 'https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?w=600&auto=format&fit=crop&q=80',
+    image: imgChessRoll,
     isAvailable: true,
     isPopular: true,
     isVeg: true,
@@ -550,11 +561,11 @@ export const SEED_MENU_ITEMS: MenuItem[] = [
   },
   {
     id: 'new-2',
-    name: 'Chess Maggi',
+    name: 'Cheese Maggi',
     category: 'NEW ADDITIONS',
     price: 65,
     description: 'Hot spiced Maggi noodles enveloped with rich grated cheese that melts into every single noodle strand.',
-    image: 'https://images.unsplash.com/photo-1552611052-33e04de081de?w=600&auto=format&fit=crop&q=80',
+    image: 'https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?w=600&auto=format&fit=crop&q=80',
     isAvailable: true,
     isPopular: true,
     isVeg: true,
